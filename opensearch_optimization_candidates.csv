@@ -1,0 +1,5 @@
+domain_name,engine_version,current_data_instance,graviton_data_instance,data_node_count,current_master_instance,graviton_master_instance,master_node_count,current_storage,recommended_storage,storage_gb_per_node,current_monthly_cost,projected_monthly_cost,monthly_savings,optimizations
+luckyur-log,Elasticsearch_7.10,m5.xlarge.search,m6g.xlarge.search,4,t3.medium.search,t3.medium.search,3,gp2,gp3,350,$812.92,$728.41,$84.51,"Graviton data nodes, gp2→gp3 storage"
+luckylfe-log,Elasticsearch_7.10,m5.large.search,m6g.large.search,4,t3.medium.search,t3.medium.search,3,gp2,gp3,80,$426.22,$392.05,$34.17,"Graviton data nodes, gp2→gp3 storage"
+luckycommon,Elasticsearch_6.8,m5.large.search,m6g.large.search,4,t3.small.search,t3.small.search,3,gp3,gp3,100,$370.31,$342.10,$28.21,Graviton data nodes
+luckyus-opensearch-dify,OpenSearch_2.15,r6g.large.search,r6g.large.search,2,m7g.large.search,m7g.large.search,3,gp3,gp3,30,$4.47,$4.47,$0.00,Already optimized
