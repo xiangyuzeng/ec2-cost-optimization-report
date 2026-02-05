@@ -1,0 +1,11 @@
+Category,InstanceCount,CurrentMonthlyCost,PotentialMonthlySavings,PotentialAnnualSavings,SavingsPercent
+China_IDLE,181,17723.76,12285.38,147424.56,69.3
+China_LOW_LOAD,47,7967.72,2390.22,28682.64,30.0
+China_NORMAL,5,427.23,0.0,0.0,0.0
+Family_c6i,195,11216.81,7509.36,90112.32,66.9
+Family_m6i,20,12765.72,6460.22,77522.64,50.6
+Family_r6i,3,1015.45,330.02,3960.24,32.5
+Family_m5,6,580.26,193.41,2320.92,33.3
+Family_m6a,5,304.64,52.22,626.64,17.1
+Family_other,4,235.83,130.37,1564.44,55.3
+TOTAL,233,26118.71,14675.6,176107.2,56.2
