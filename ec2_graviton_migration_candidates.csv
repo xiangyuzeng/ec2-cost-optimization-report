@@ -1,0 +1,15 @@
+category,instance_type,graviton_type,count,current_monthly_cost,graviton_monthly_cost,monthly_savings,annual_savings,migration_effort,notes
+Standalone,c6i.large,c7g.large,144,$6165.29,$5258.63,$906.66,$10879.92,EASY,Amazon Linux 2 - ARM64 AMI available
+Standalone,c6i.xlarge,c7g.xlarge,42,$3596.42,$3067.53,$528.89,$6346.62,EASY,Amazon Linux 2 - ARM64 AMI available
+Standalone,c6i.2xlarge,c7g.2xlarge,5,$856.29,$730.36,$125.93,$1511.10,EASY,Amazon Linux 2 - ARM64 AMI available
+Standalone,c6i.4xlarge,c7g.4xlarge,1,$342.52,$292.15,$50.37,$604.44,EASY,Amazon Linux 2 - ARM64 AMI available
+Standalone,c5.large,c7g.large,1,$42.81,$36.52,$6.30,$75.56,EASY,Amazon Linux 2 - ARM64 AMI available
+Standalone,m6a.large,m7g.large,3,$130.56,$123.31,$7.25,$87.04,EASY,Amazon Linux 2 - ARM64 AMI available
+Standalone,m6a.xlarge,m7g.xlarge,2,$174.08,$164.41,$9.67,$116.05,EASY,Amazon Linux 2 - ARM64 AMI available
+Standalone,m5.xlarge,m7g.xlarge,6,$580.26,$493.22,$87.04,$1044.47,EASY,Amazon Linux 2 - ARM64 AMI available
+Standalone,r6i.2xlarge,r7g.2xlarge,2,$507.73,$431.57,$76.16,$913.91,EASY,Amazon Linux 2 - ARM64 AMI available
+Standalone,r6i.4xlarge,r7g.4xlarge,1,$507.73,$431.57,$76.16,$913.91,EASY,Amazon Linux 2 - ARM64 AMI available
+Standalone,t3.large,t4g.large,1,$41.91,$33.85,$8.06,$96.71,EASY,Amazon Linux 2 - ARM64 AMI available
+EKS Node Group,m6i.4xlarge,m7g.4xlarge,7,$2707.89,$2301.71,$406.18,$4874.20,MEDIUM,"Requires ARM64 container images, launch template update"
+EKS Node Group,m6i.8xlarge,m7g.8xlarge,13,$10057.88,$8549.20,$1508.68,$18104.19,MEDIUM,"Requires ARM64 container images, launch template update"
+Windows,c6i.xlarge,N/A,3,$256.89,$256.89,$0.00,$0.00,NOT_ELIGIBLE,Windows not supported on Graviton
