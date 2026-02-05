@@ -1,0 +1,19 @@
+service,instance_type,count,hourly_rate,monthly_cost,platform_engine,offering_type,expiration,state,days_until_expiry
+EC2,c6i.large,129,0.05623,$5295.18,Linux/UNIX,No Upfront,2026-08-28,active,203
+EC2,c6i.xlarge,26,0.11246,$2134.49,Linux/UNIX,No Upfront,2026-08-28,active,203
+EC2,c6i.xlarge,3,0.29646,$649.25,Windows,No Upfront,2026-08-28,active,203
+EC2,c6i.2xlarge,7,0.22491,$1149.29,Linux/UNIX,No Upfront,2026-08-28,active,203
+EC2,c6i.4xlarge,1,0.44982,$328.37,Linux/UNIX,No Upfront,2026-08-28,active,203
+EC2,c5.large,1,0.054,$39.42,Linux/UNIX,No Upfront,2026-08-28,active,203
+EC2,m6i.4xlarge,7,0.50803,$2596.03,Linux/UNIX,No Upfront,2026-08-27,active,202
+EC2,m6i.8xlarge,13,1.01606,$9642.41,Linux/UNIX,No Upfront,2026-08-27,active,202
+EC2,m6a.large,3,0.05715,$125.16,Linux/UNIX,No Upfront,2026-08-27,active,202
+EC2,m6a.xlarge,2,0.11431,$166.89,Linux/UNIX,No Upfront,2026-08-27,active,202
+EC2,m5.xlarge,5,0.121,$441.65,Linux/UNIX,No Upfront,2026-08-27,active,202
+EC2,m4.large,1,0.062,$45.26,Linux/UNIX,No Upfront,2026-08-28,active,203
+EC2,m4.xlarge,1,0.1239,$90.45,Linux/UNIX,No Upfront,2026-08-27,active,202
+EC2,r6i.2xlarge,2,0.3334,$486.76,Linux/UNIX,No Upfront,2026-08-28,active,203
+EC2,r6i.4xlarge,1,0.66679,$486.76,Linux/UNIX,No Upfront,2026-08-27,active,202
+RDS,db.t4g.medium,1,0.093,$67.89,mysql,No Upfront,2026-08-27,active,202
+ElastiCache,cache.m6g.large,2,0.102,$148.92,redis,No Upfront,2026-08-27,active,202
+OpenSearch,m5.large.search,8,0.098,$572.32,N/A,No Upfront,2026-08-27,active,202
