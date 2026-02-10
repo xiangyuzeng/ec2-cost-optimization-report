@@ -1,0 +1,35 @@
+{
+  "policy": {
+    "description": "SkyWalking metrics - 30 day retention for aggregated metrics data",
+    "default_state": "hot",
+    "states": [
+      {
+        "name": "hot",
+        "actions": [],
+        "transitions": [
+          {
+            "state_name": "delete",
+            "conditions": {
+              "min_index_age": "30d"
+            }
+          }
+        ]
+      },
+      {
+        "name": "delete",
+        "actions": [
+          {
+            "delete": {}
+          }
+        ],
+        "transitions": []
+      }
+    ],
+    "ism_template": [
+      {
+        "index_patterns": ["skywalking_idx_metrics-all*"],
+        "priority": 100
+      }
+    ]
+  }
+}

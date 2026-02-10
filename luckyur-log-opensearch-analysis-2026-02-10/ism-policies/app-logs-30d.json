@@ -1,0 +1,42 @@
+{
+  "policy": {
+    "description": "Application logs retention policy - 30 days for iprod_tomcat_* indices",
+    "default_state": "hot",
+    "states": [
+      {
+        "name": "hot",
+        "actions": [
+          {
+            "rollover": {
+              "min_index_age": "1d",
+              "min_primary_shard_size": "30gb"
+            }
+          }
+        ],
+        "transitions": [
+          {
+            "state_name": "delete",
+            "conditions": {
+              "min_index_age": "30d"
+            }
+          }
+        ]
+      },
+      {
+        "name": "delete",
+        "actions": [
+          {
+            "delete": {}
+          }
+        ],
+        "transitions": []
+      }
+    ],
+    "ism_template": [
+      {
+        "index_patterns": ["iprod_tomcat_lucky_k8s-*", "iprod_tomcat_lucky-*"],
+        "priority": 100
+      }
+    ]
+  }
+}
