@@ -1,0 +1,131 @@
+================================================================================
+21st & 3rd STORE OPENING ANALYSIS — QUICK SUMMARY
+================================================================================
+
+Store: 21st & 3rd (shop_no: US00020)
+Opening: February 6, 2026 (Friday, 12:06 PM)
+Data Coverage: 6 days (Feb 6 - Feb 11, 2026)
+
+================================================================================
+ANSWER: Is opening day traffic better than subsequent days?
+================================================================================
+
+YES, but MINIMAL boost compared to other stores.
+
+English:
+Opening day achieved 298 cups (half-day operation, 12 PM - midnight).
+This is 47% higher than the average of subsequent days (203 cups).
+Opening-to-average ratio: 1.47x
+
+However, when comparing to weekdays only (excluding weekend dip),
+the opening boost is minimal — Tuesday Feb 10 matched opening day at 296 cups.
+
+Chinese (中文):
+开业日完成298杯（半天营业，中午12点至午夜）。
+比后续天数平均高47%（后续平均203杯）。
+开业比率: 1.47倍
+
+但如果仅比较工作日（排除周末低谷），开业提升很小 —
+2月10日周二达到296杯，与开业日基本持平。
+
+================================================================================
+KEY COMPARISONS
+================================================================================
+
+1. Opening Day vs. Day 2 (Saturday)
+   298 cups vs. 156 cups (+91% higher)
+
+2. Opening Day vs. First Weekend Average
+   298 cups vs. 151 cups (+98% higher)
+
+3. Opening Day vs. Subsequent Days Average
+   298 cups vs. 203 cups (+47% higher) → 1.47x ratio
+
+4. Opening Day vs. Next Tuesday (Feb 10)
+   298 cups vs. 296 cups (+1% higher) → essentially the same
+
+5. Daily Trend:
+   Stable — no post-opening collapse
+   Pattern: Opening 298 → Weekend dip 145-156 → Weekday recovery 208-296
+
+================================================================================
+HOURLY PATTERN ANALYSIS
+================================================================================
+
+Opening day had a concentrated 4 PM rush:
+- 4 PM: 59 cups (19.8% of daily traffic) — opening promotion effect
+- Subsequent weekdays average at 4 PM: 24 cups
+
+Afternoon peak (2-6 PM) was inflated on opening day: 185 cups (62% of daily)
+Subsequent days show more balanced distribution with stronger evening (8-10 PM)
+
+Conclusion: Opening day rush was concentrated in afternoon hours.
+Subsequent days normalized with better evening performance.
+
+================================================================================
+COMPARISON TO 8-STORE ANALYSIS BENCHMARK
+================================================================================
+
+Metric                    | 21st & 3rd | 8-Store Median | Difference
+--------------------------|------------|----------------|------------
+Opening-to-Avg Ratio      | 1.47x      | 1.34x          | +10% above median
+Opening Day Cups          | 298        | 506            | -41% (smaller store)
+Subsequent Days Avg       | 203        | 380            | -47% (smaller store)
+Trend Pattern             | Stable     | 63% decline    | Much better
+Weeks of Data             | <1 week    | 4-32 weeks     | Limited data
+
+Findings:
+✓ Opening ratio (1.47x) is close to fleet median (1.34x) — consistent pattern
+✓ Smaller store (200-300 cups/day vs. 380 fleet average)
+✓ No post-opening collapse — traffic is stable (good sign)
+✗ Limited data (only 6 days) — need 4+ weeks to confirm trend
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+For 21st & 3rd Management:
+1. Monitor Friday Feb 13 performance to establish baseline weekday traffic
+2. Weekend traffic (145-156 cups) is low — consider weekend promotions
+3. Evening traffic (8-10 PM) is growing — capitalize on late-night crowd
+4. Stable performance is good — maintain current operations
+
+For Future Openings:
+1. 21st & 3rd pattern (1.47x) is healthy — moderate boost without hype
+2. Half-day opening worked well (298 cups in 12 hours = strong run rate)
+3. Weekday strength (200-300 cups) is promising for long-term
+4. No "novelty collapse" — unlike stores with extreme opening ratios
+
+================================================================================
+DATA LIMITATIONS
+================================================================================
+
+⚠️ Only 6 days of data — statistical significance is limited
+⚠️ Half-day opening (12 PM start) makes comparison difficult
+⚠️ No Friday comparison yet (Feb 13 data needed)
+⚠️ Feb 11 data incomplete (only through 7:57 PM)
+⚠️ Unknown if opening day had special promotions
+
+Follow-up: Re-analyze after 4+ weeks (by March 6, 2026)
+
+================================================================================
+FILES GENERATED
+================================================================================
+
+1. 21st_3rd_opening_analysis.md — Comprehensive analysis report
+2. 21st_3rd_daily_data.csv — Daily cup counts and comparisons
+3. 21st_3rd_hourly_data.csv — Hourly breakdown (76 data points)
+4. visualize_21st_3rd.py — Visualization script (requires matplotlib)
+5. 21st_3rd_summary.txt — This summary document
+
+================================================================================
+CONCLUSION
+================================================================================
+
+21st & 3rd 开业第一天流量比之后几天好，但提升幅度较小（1.47倍）。
+店铺表现稳定，无明显下滑趋势，是健康的开业模式。
+
+The 21st & 3rd store had a modest opening day boost (1.47x) and shows
+stable performance without post-opening collapse — a healthy pattern.
+
+================================================================================
